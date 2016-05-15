@@ -1,0 +1,24 @@
+{
+  "name": "three-js-sprite-animator",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "A plugin to allow three.js Sprite objects to have an animated texture using Spritesheet like image files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaotive/three-js-sprite-animator.git"
+  },
+  "keywords": [
+    "three.js",
+    "sprite",
+    "animation"
+  ],
+  "author": "chaotive <leonardomontenegro123@gmail.com> (http://www.chaotive.cl)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaotive/three-js-sprite-animator/issues"
+  },
+  "homepage": "https://github.com/chaotive/three-js-sprite-animator#readme"
+}
