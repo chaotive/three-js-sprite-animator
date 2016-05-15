@@ -1,6 +1,9 @@
 assert = require 'assert'
-SpriteAnimator = require '../../../lib/CHAOTIVE/SpriteAnimator.js'
+should = require('chai').should()
+SpriteAnimator = require '../../../lib/three-js-sprite-animator.js'
 
-sa = new SpriteAnimator()
-
+describe 'three-js-sprite-animator', ->
+  it 'should at least work', ->
+    sa = new SpriteAnimator()
+    #s1.should.be.at.least 0
 

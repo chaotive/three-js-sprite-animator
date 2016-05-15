@@ -2,9 +2,16 @@
   "name": "three-js-sprite-animator",
   "version": "0.0.2",
   "description": "A plugin to allow three.js Sprite objects to have an animated texture using Spritesheet like image files.",
-  "main": "index.js",
+  "main": "lib/three-js-sprite-animator.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "chai": "~1.7.2",
+    "grunt-mocha-test": "~0.6.3"
+  },
   "scripts": {
-    "test": "test.js"
+    "test": "grunt"
   },
   "repository": {
     "type": "git",
