@@ -1,8 +1,10 @@
-assert = require 'assert'
 should = require('chai').should()
-SpriteAnimator = require '../../../lib/three-js-sprite-animator.js'
+SA = require '../../../lib/three-js-sprite-animator.js'
+
+console.log("SA: ")
+console.log(SA)
 
 describe 'three-js-sprite-animator', ->
   it 'should at least work', ->
-    sa = new SpriteAnimator()
+    sa = new SA.SpriteAnimator()
     sa.testFunction(3).should.equal 3
